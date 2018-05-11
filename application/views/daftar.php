@@ -20,13 +20,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/daftar.css" rel="stylesheet" type="text/css" media="all" />
 
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--//fonts-->
 
 </head>
-	
+
 <body>
 
 <div class="banner-header banner2">
@@ -61,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<li><a href="promo">Promo</a></li>
 									</ul>
 							  </li>
-							<li class="active"><a href="kontak">Kontak</a></li>
+							<li><a href="kontak">Kontak</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -74,70 +75,152 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- // banner -->
 <!-- Mail Us inner -->
 <div class="contact-page-w3ls inner-padding">
-	<div class="container">
-	<div class="w3-heading-all">
-				<h3>Hubungi Kami</h3>
-			</div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.5897551403255!2d111.5337683147708!3d-7.619537677447237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bee4bb9a089b%3A0xaed32bb2083b855f!2sPUSAT+SUNAT+MODERN+-+Tanpa+Suntik+dan+Rasa+Nyeri!5e0!3m2!1sid!2sid!4v1525014820845"></iframe>
-<div class="contact-info-w3ls">
-	<div class="contact-left-w3layouts">
-			<div class="contact-w3-agileits">
-				<img src="assets/images/contact1.jpg" alt="img">
-				<div class="right-contact-w3ls">
-					<h6>Sarbani</h6>
-					<p class="work-w3">Owner</p>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+62 812 3409030</p>
-					</div>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:banimadiun@gmail.com">banimadiun@gmail.com</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<!-- <div class="contact-w3-agileits">
-				<img src="assets/images/c2.jpg" alt="img">
-				<div class="right-contact-w3ls">
-					<h6>Smith Carl</h6>
-					<p class="work-w3">Specialist</p>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+01 543 338 96</p>
-					</div>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example@mail.com</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="contact-w3-agileits">
-				<img src="assets/images/c3.jpg" alt="img">
-				<div class="right-contact-w3ls">
-					<h6>James Mac</h6>
-					<p class="work-w3">Doctor</p>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+01 543 338 96</p>
-					</div>
-					<div class="span-sub-w3ls">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example@mail.com</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div> -->
-	</div>
-	<div class="contact-right-w3layouts">
-	<h5 class="title-w3">Kenali Kami Lebih Dekat!</h5>
-	<p class="head-w3-agileits">Jika Anda memiliki pertanyaan, silahkan hubungi kami atau mengisi form di bawah ini dan kami akan menghubungi Anda kembali.</p>
-		<form action="<?php echo base_url(). 'admin/tambah_aksi'; ?>" method="post">
-			<input type="text" name="nama" placeholder="NAMA" required="Harap diisi">
-			<input type="email" name="email" placeholder="EMAIL" required="Harap diisi">
-			<textarea name="pesan" placeholder="TULISKAN PESAN ANDA" required="Harap diisi"></textarea>
-			<input type="submit" value="Kirim Pesan">
-		</form>
-	</div>
-	<div class="clearfix"> </div>
-	</div>
-	<!---728x90--->
-	</div>
+    <h1>Formulir Pendaftaran Pasien Khitan</h1>
+<form id="regForm" action="/action_page.php">
+  <h3>Data Orang Tua Bapak/Ibu Pasien Khitan</h3><br>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Nama Lengkap*
+    <p><input placeholder="" oninput="this.className = ''" name="namalengkap"></p><br>
+  </div>
+  <div>No. KTP*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Hubungan*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Alamat Rumah
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>RT/RW*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Kelurahan/Kecamatan*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Kabupaten/Kota*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Telepon/Fax/HP*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Email*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Pendidikan Terakhir*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Nama Pasien Yang Dikhitan*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Umur*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+    <div>Riwayat Penyakit Yang Dikhitan*
+    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
+  </div>
+  <div class="tab">Metode Yang Dipilih (semua tanpa rasa sakit tanpa jarum suntik)
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+  </div>
+  <div class="tab">Birthday:
+    <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
+    <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+  </div>
+  <div class="tab">Login Info:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Kembali</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Selanjutnya</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+
+<script>
+var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the crurrent tab
+
+function showTab(n) {
+  // This function will display the specified tab of the form...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  //... and fix the Previous/Next buttons:
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  //... and run a function that will display the correct step indicator:
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form...
+  if (currentTab >= x.length) {
+    // ... the form gets submitted:
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+}
+
+function validateForm() {
+  // This function deals with validation of the form fields
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  // A loop that checks every input field in the current tab:
+  for (i = 0; i < y.length; i++) {
+    // If a field is empty...
+    if (y[i].value == "") {
+      // add an "invalid" class to the field:
+      y[i].className += " invalid";
+      // and set the current valid status to false
+      valid = false;
+    }
+  }
+  // If the valid status is true, mark the step as finished and valid:
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid; // return the valid status
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class on the current step:
+  x[n].className += " active";
+}
+</script>
+
 </div>
 	<!-- //Mail Us inner -->
 
@@ -147,7 +230,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
 			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan.</p>
+			<p>Lorem ipsum quia dolor
+			sit amet, consectetur, adipisci velit, sed quia non 
+			numquam eius modi tempora.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>

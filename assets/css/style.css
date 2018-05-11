@@ -624,7 +624,7 @@ nav.navbar.navbar-default {
 /*--//modal--*/
 /*-- //Banner-Slider --*/
 /*-- reservation --*/
-.agileits_reservation {
+/*-- .agileits_reservation {
     margin: -5em auto 0;
     z-index: 999;
     background: #fff;
@@ -704,6 +704,9 @@ nav.navbar.navbar-default {
     top: 56%;
 }
 /*-- //reservation --*/
+/*-- register --*/
+
+/*-- //register --*/
 /*-- about --*/
 .w3-agile-team,.services,.w3-about,.testimonials,.agileits-gallery,.codes,.typography,.contact-page-w3ls,.banner-bottom,.about,.team {
     padding: 4em 0;
@@ -1285,7 +1288,7 @@ div#services {
 	padding:2em 0;
 }
 .w3-agile-team-img1{
-	background:url(../images/t6.jpg) no-repeat 0px 0px;
+	background:url(../images/team1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1294,7 +1297,7 @@ div#services {
 	min-height:450px;
 }
 .w3-agile-team-img-1 {
-	background:url(../images/t11.jpg) no-repeat 0px 0px;
+	background:url(../images/team1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .w3-agile-team-img-2 {

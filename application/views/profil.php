@@ -76,17 +76,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="about">
 	<div class="container">
 	<div class="w3-heading-all">
-				<h3>About us</h3>
+				<h3>Tentang Kami</h3>
 			</div>
 		<div class="ab-agile">
 			<div class="col-md-6 aboutleft">
-				<h3>Welcome to Hospital</h3>
-				<p class="para1">Donec bibendum velit quis diam venenatis, vulputate aliquam sapien blandit. 
-				Etiam dui massa, vehicula a convallis a, facilisis vitae neque.Pellentesque sit amet 
-				odio quis libero eleifend congue at ac justo. Suspendisse posuere congue accumsan Vulputate aliquam sapien. </p>
-				<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-				<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
-				<p><i class="fa fa-check" aria-hidden="true"></i> Proin tempor pulvinar Vivamus nisi hendrerit et. </p>
+				<h3>Sunat Modern Tanpa Jarum Suntik</h3>
+				<p class="para1">Layanan pusat sunat modern tanpa jarum suntik Indonesia pertama kali dicetuskan oleh Andri Suwanto. Beliau telah memiliki pengalaman sebagai international coach di China, Malaysia, Kamboja, Filipina, dan Singapura.<br>
+                Sebelum menjadi pusat sunat modern, sejak tahun 1995 kami telah memiliki pengalaman dalam hal khitan standar. Dan sejak tahun 2016, kami menjadi salah satu cabang dari Pusat Sunat Modern Tanpa Suntik.<br> 
+                Selain itu, kami bekerja sama dengan Bulan Sabit Merah Indonesia (BSMI) dalam masalah khitan dan pelatihan khitan untuk tenaga medis dan keperawatan.</p>
+				<p><i class="fa fa-check" aria-hidden="true"></i> Pelayanan sunat terlengkap, modern dan ternyaman. </p>
+				<p><i class="fa fa-check" aria-hidden="true"></i> Telah melakukan tindakan khitan lebih dari 500 pasien. </p>
+				<p><i class="fa fa-check" aria-hidden="true"></i> Mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan. </p>
 				</div>
 			<div class="col-md-6 aboutright">
 				<img src="assets/images/p1.jpg" class="img-responsive" alt="" />
@@ -99,22 +99,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- wthree-mid -->
 	<div class="wthree-mid">
 		<div class="container">
-			<h3>Nisl amet dolor sit ipsum veroeros sed blandit</h3>
-			<p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+			<h3>Menjadi pilihan utama khitan bayi hingga dewasa</h3>
+			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern ini mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan dalam setiap pekerjaan.</p>
 		</div>
 	</div>
 <!-- //wthree-mid -->
 <!--/team-->
 	<div class="team" id="team">
 			<div class="w3-heading-all">
-				<h3>Our Doctors</h3>
+				<h3>Tim Medis</h3>
 			</div>
 			<div class="w3-agile-team-grids">
 				<div class="w3-agile-team-grid1">
 					<div class="col-md-4 w3-agile-team-img1">
 					<div class="w3-agile-team-img-head">
 					
-						<h3>Joe Root</h3>
+						<h3>Sarbani</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -125,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-4 w3-agile-team-img1 w3-agile-team-img-1">
 						<div class="w3-agile-team-img-head">
-						<h3>perry jest</h3>
+						<h3>Choiruddin</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -136,7 +136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-4 w3-agile-team-img1 w3-agile-team-img-2">
 						<div class="w3-agile-team-img-head">
-						<h3>Shakeera ls</h3>
+						<h3>Sugeng Purwito</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -150,7 +150,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3-agile-team-grid2">
 					<div class="col-md-4 w3-agile-team-img1 w3-agile-team-img-3">
 						<div class="w3-agile-team-img-head">
-						<h3>sharapova</h3>
+						<h3>Heri Susanto</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -161,7 +161,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-4 w3-agile-team-img1 w3-agile-team-img-4">
 					<div class="w3-agile-team-img-head">
-						<h3>serina willams</h3>
+						<h3>Nur Hadi</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -171,7 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-4 w3-agile-team-img1 w3-agile-team-img-5">
 						<div class="w3-agile-team-img-head">
-						<h3>Usain bolt</h3>
+						<h3>Bagus Handoko</h3>
 						<div class="team-social">
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -191,9 +191,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
 			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Lorem ipsum quia dolor
-			sit amet, consectetur, adipisci velit, sed quia non 
-			numquam eius modi tempora.</p>
+			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>

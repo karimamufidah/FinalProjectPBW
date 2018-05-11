@@ -653,9 +653,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
 			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Lorem ipsum quia dolor
-			sit amet, consectetur, adipisci velit, sed quia non 
-			numquam eius modi tempora.</p>
+			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>

@@ -75,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-bottom">
 		<div class="container">
 		<div class="w3-heading-all">
-				<h3>Special Services</h3>
+				<h3>Layanan Kami</h3>
 			</div>
 			<div class="col-md-4 w3l_services_footer_top_left">
 				<img src="assets/images/sp5.jpg" alt=" " class="img-responsive" />
@@ -135,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //offer-bottom -->
 <!-- offer -->
-	<div class="offer">
+    <div class="offer">
 		<div class="container">
 			<div class="w3ls_banner_bottom_grids">
 				<div class="col-md-4 agile_offer_grid">
@@ -145,9 +145,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Operation Theatre </h4>
-						<p class="w3_agileits_service_para">Praesent nec blandit lorem, et facilisis mi. Ut fringilla massa massa, 
-							id consequat eros iaculis quis.</p>
+						<h4>Standar </h4>
+						<p class="w3_agileits_service_para">Merupakan metode khitan dengan anestesi menggunakan jarum suntik dan penjahitan. Kelebihan dari metode ini adalah harga murah namun masih dengan mengutamakan keselamatan. Hanya setelah khitan pasien tidak dianjurkan untuk mandi, pembatasan aktivitas, dan harus melakukan perawatan yang intens. Dengan tarif Rp 500.000,- meliputi tindakan dan obat.</p>
 					</div>
 				</div>
 				<div class="col-md-4 agile_offer_grid">
@@ -157,9 +156,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Outdoor Checkup </h4>
-						<p class="w3_agileits_service_para">Praesent nec blandit lorem, et facilisis mi. Ut fringilla massa massa, 
-							id consequat eros iaculis quis.</p>
+						<h4>Cauter/Laser </h4>
+						<p class="w3_agileits_service_para">Merupakan metode khitan dengan anestesi menggunakan jarum suntik serta tisu bius dan penjahitan. Kelebihan dari metode ini adalah harga murah namun masih dengan mengutamakan keselamatan. Hanya setalah khitan pasien tidak dianjurkan untuk mandi, pembatasan aktivitas, dan harus melakukan perawatan yang intens. Dengan tarif Rp 800.000,- meliputi tindakan dan obat.</p>
 					</div>
 				</div>
 				<div class="col-md-4 agile_offer_grid">
@@ -169,12 +167,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="wthree_offer_grid1">
-						<h4>Cancer Service </h4>
-						<p class="w3_agileits_service_para">Praesent nec blandit lorem, et facilisis mi. Ut fringilla massa massa, 
-							id consequat eros iaculis quis.</p>
+						<h4>Alisklamp </h4>
+						<p class="w3_agileits_service_para">Merupakan metode khitan dengan menggunakan klamp sehingga tidak memerlukan penjahitan atau manipulasi sehingga lebih cepat. Kelebihan dari metode ini adalah harga terjangkau dengan mengutamakan keselamatan dan kenyamanan. Setelah khitan, pasien bebas untuk mandi, beraktifitas seperti biasa, namun tetap melakukan perawatan yang intens. Dengan tarif Rp 1.000.000,- meliputi tindakan, alat, obat, serta celana khitan.</p>
 					</div>
 				</div>
 				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="offer">
+		<div class="container">
+			<div class="w3ls_banner_bottom_grids">
+				<div class="col-md-4 agile_offer_grid">
+					<div class="agileits_w3layouts_offer_grid">
+						<div class="agile_offer_grid_pos">
+							<p>04.</p>
+						</div>
+					</div>
+					<div class="wthree_offer_grid1">
+						<h4>Superklamp/Superrings </h4>
+						<p class="w3_agileits_service_para">Merupakan metode khitan dengan menggunakan metode ring yang kompresinya bagus sehingga tidak memerlukan penjahitan atau manipulasi sehingga lebih cepat dan ring dapat lepas sendiri. Kelebihan dari metode ini adalah pasien tidak perlu kontrol. Setelah khitan, pasien bebas untuk mandi, beraktifitas seperti biasa, dan perawatan jauh lebih mudah. Dengan tarif Rp 1.200.000,- meliputi tindakan, alat, obat, serta celana khitan.</p>
+					</div>
+				</div>
+				<div class="col-md-4 agile_offer_grid">
+					<div class="agileits_w3layouts_offer_grid">
+						<div class="agile_offer_grid_pos">
+							<p>05.</p>
+						</div>
+					</div>
+					<div class="wthree_offer_grid1">
+						<h4>Stapler </h4>
+						<p class="w3_agileits_service_para">Merupakan metode khitan dengan menggunakan metode ring yang kompresinya bagus sehingga tidak memerlukan jahitan atau manipulasi sehingga lebih cepat dan ring dapat lepas sendiri. Kelebihan dari metode ini adalah cocok untuk pasien dewasa. Setelah khitan, pasien diperbolehkan mandi setelah 7 hari, beraktifitas seperti biasa, dan perawatan jauh lebih mudah. Dengan tarif Rp 3.500.000,- meliputi tindakan, alat, obat, serta celana khitan.</p>
+					</div>
+				</div>				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -234,9 +260,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
 			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Lorem ipsum quia dolor
-			sit amet, consectetur, adipisci velit, sed quia non 
-			numquam eius modi tempora.</p>
+			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>

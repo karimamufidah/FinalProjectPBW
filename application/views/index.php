@@ -24,6 +24,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //for banner css -->
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="assets/css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />  <!-- time-picker-CSS -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--//fonts-->
@@ -88,9 +89,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-dott">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>We provide best medical services</h3>
+						<h3>Pusat pelayanan  khitan modern terpadu</h3>
 						<div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+							  <p> Pusat Sunat Modern Tanpa Jarum Suntik Indonesia</p>
 						 </div>
 					</div>
 				</div>
@@ -100,9 +101,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-dott">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>We provide best dental services</h3>
+						<h3>Melayani jasa khitan anak hingga dewasa</h3>
 						<div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+							  <p> Pusat Sunat Modern Tanpa Jarum Suntik Indonesia</p>
 						 </div>
 					</div>
 				</div>
@@ -112,9 +113,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-dott">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>We provide best baby services </h3>
+						<h3>Sebuah inovasi dalam dunia kesehatan </h3>
 						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+							  <p> Pusat Sunat Modern Tanpa Jarum Suntik Indonesia</p>
 						  </div>
 					</div>
 				</div>
@@ -124,9 +125,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-dott">
 				<div class="container">
 					<div class="carousel-caption">
-						 <h3>We provide top doctors</h3>
+						 <h3>Memiliki metode sunat modern terlengkap</h3>
 						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+							  <p> Pusat Sunat Modern Tanpa Jarum Suntik Indonesia</p>
 						  </div>
 					</div>
 				</div>
@@ -137,9 +138,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="banner-dott">
 				<div class="container">
 					<div class="carousel-caption">
-						 <h3>Food is our common ground </h3>
+						 <h3>Memiliki cabang di seluruh Indonesia </h3>
 						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+							  <p> Pusat Sunat Modern Tanpa Jarum Suntik Indonesia</p>
 						  </div>
 					</div>
 				</div>
@@ -155,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<span class="sr-only">Next</span>
 		</a>
     </div> 
-	<div class="agileits_reservation">
+	<!-- <div class="agileits_reservation">
 					<form action="#" method="post">
 						<div class="cuisine"> 
 							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
@@ -180,7 +181,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<input type="text" name="Time" class="timepicker" value=" Waktu">	 
 							</div>
 							<div class="span1_of_1 section_room">
-								<!-- start_section_room --> 
+								<!-- start_section_room -- 
 								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 								<select id="country1" class="frm-field sect" required>
 									<option value="">Jumlah</option>
@@ -195,52 +196,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="submit" value="Daftar" /> 
 						</div> 
 					</form>
-				</div>
+				</div>-->
  </div>
 	<!-- //slider -->
 <!-- // banner -->
-
+<div class="w3-panel" style="width:50%;font-size:25px;margin-top:0;margin-left:25%;">
+  <a href="daftar"><button class="w3-button w3-block w3-teal" style="padding:30px">DAFTAR</button></a>
+</div>
 <!-- /About -->
 	<div class="w3-about about-gap" id="about">
 		<div class="container">
 			<div class="w3-heading-all">
-				<h3>About us</h3>
+				<h3>Tentang Kami</h3>
 			</div>
 		<div class="w3-about-grids">
 				<div class="col-md-6 w3-about-left-grid">
 					<div class=" w3-about-left-grid-inner-head">
-						<i class="fa fa-microphone" aria-hidden="true"></i>
-						<h3>Lets Talk about Hospitality</h3>
+						<!-- <i class="fa fa-microphone" aria-hidden="true"></i> -->
+						<h3>Sunat Modern Tanpa Jarum Suntik</h3>
 					</div>
 					<div class=" w3-about-left-grid-inner2-head">
-						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida, ante egestas egestas vulputate, elit risus maximus mauris, non gravida arcu justo eget est. Cras eu mauris nisl. Maecenas ut scelerisque metus.</h3>
+						<h3>Merupakan sebuah inovasi baru di dunia kesehatan dalam hal khitan. Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern ini mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan dalam setiap pekerjaan.</h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="col-md-6 w3-about-right-grid">
 						<div class="col-md-8 w3-about-right-text1">
-							<h5>Lorem ipsum 109</h5>
-							<h4>Specialist1</h4>
-							<h3>Ut sed augue porttitor, vehicula eros in, vehicula elit. Aliquam ut ex aliquam risus vestibulum hendrerit.</h3>
-				
+							<h5>Rumah Sunat Modern Kediri</h5>
+							<h4>Achmad Zaini</h4>
+							<h3>Berkhitan bukan jadi momok menakutkan. Meski jauh, sunat modern ini bisa menginspirasi teman-temannya pasien kami untuk datang ke klinik minta di khitan.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
 								<img src="assets/images/a11.jpg" alt="img" />
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-md-8 w3-about-right-text1">
-							<h5>Dunke alpha 212</h5>
-							<h4>Specialist2</h4>
-							<h3>Ut sed augue porttitor, vehicula eros in, vehicula elit. Aliquam ut ex aliquam risus vestibulum hendrerit.</h3>
+							<h5>Rumah Sakit Happy Modern Samarinda</h5>
+							<h4>Arifudin Riyadi</h4>
+							<h3>Layanan khitan kami semakin memberikan manfaat besar untuk pasien khitan dan orang tuanya. Mereka cukup senang dan nyaman karena dengan khitan modern ini mereka bisa langsung beraktifitas setelah berkhitan.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
 								<img src="assets/images/a121.jpg" alt="img" />
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-md-8 w3-about-right-text1">
-							<h5>Monst ibram 143</h5>
-							<h4>Specialist3</h4>
-							<h3>Ut sed augue porttitor, vehicula eros in, vehicula elit. Aliquam ut ex aliquam risus vestibulum hendrerit.</h3>
+							<h5>Klinik Nur Husada Sumsel</h5>
+							<h4>Tarmuji</h4>
+							<h3>Sebagai praktisi khitan sangat merasakan manfaatnya. Berkhitan jadi lebih efisien waktu, cepat, hasil rapi dan yang terpenting adalah pasien khitan senang serta nyaman.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
 							<img src="assets/images/a13.jpg" alt="img" />
@@ -256,51 +258,51 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services" id="services">
 	<div class="container">
 		<div class="w3-heading-all services-head">
-			<h3>Services</h3>
+			<h3>Layanan</h3>
 		</div>	
 
 		<div class="w3-services-grids">
 			<div class="col-md-4 w3-services-grids1">
 			<div class="w3-services-grid1">
-				<i class="fa fa-user-md" aria-hidden="true"></i>
-				<h3> Special Team</h3>
+				<i class="fa fa-heart" aria-hidden="true"></i>
+				<h3> Sunat Modern Bayi</h3>
 				<div class="w3-services-grid1-left">
-					<h4>10 </h4>
-					<p>ipsum</p>
+					<!-- <h4>10 </h4>
+					<p>ipsum</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>5</h4>
-					<p>basusx</p>
+				    <!-- <h4>5</h4>
+					<p>basusx</p> -->
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1 ">
 			<div class=" w3-services-grid2">
-		<i class="fa fa-laptop" aria-hidden="true"></i>
-				<h3>Qualified Doctors</h3>
+		<i class="fa fa-child" aria-hidden="true"></i>
+				<h3>Sunat Modern Anak</h3>
 			<div class="w3-services-grid1-left">
-					<h4>20 </h4>
-					<p>basus</p>
+					<!-- <h4>20 </h4>
+					<p>basus</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>10</h4>
-					<p>basus</p>
+				    <!-- <h4>10</h4>
+					<p>basus</p> -->
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid3">
-			<i class="fa fa-hospital-o" aria-hidden="true"></i>
-				<h3>Special sergery</h3>
+			<i class="fa fa-smile-o" aria-hidden="true"></i>
+				<h3>Sunat Modern Remaja</h3>
 			<div class="w3-services-grid1-left">
-					<h4>15 </h4>
-					<p>mpsum</p>
+					<!-- <h4>15 </h4>
+					<p>mpsum</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>20</h4>
-					<p>rasus</p>
+				    <!-- <h4>20</h4>
+					<p>rasus</p> -->
 				</div>
 				<div class="clearfix"></div>
 		
@@ -311,45 +313,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3-services-grid-bottom">
 			<div class="col-md-4 w3-services-grids1">
 			<div class="w3-services-grid4">
-							<i class="fa fa-heartbeat" aria-hidden="true"></i>
-				<h3>Cardiac Clinic</h3>
+							<i class="fa fa-male" aria-hidden="true"></i>
+				<h3>Sunat Modern Dewasa</h3>
 				<div class="w3-services-grid1-left">
-					<h4>25 </h4>
-					<p>ipsum</p>
+					<!-- <h4>25 </h4>
+					<p>ipsum</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>30</h4>
-					<p>basusx</p>
+				    <!-- <h4>30</h4>
+					<p>basusx</p> -->
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid5">
-							<i class="fa fa-flask" aria-hidden="true"></i>
-				<h3>Pediatric Clinic</h3>
+							<i class="fa fa-user" aria-hidden="true"></i>
+				<h3>Sunat Modern Gemuk</h3>
 				<div class="w3-services-grid1-left">
-					<h4>35</h4>
-					<p>ipsum</p>
+					<!-- <h4>35</h4>
+					<p>ipsum</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>25</h4>
-					<p>basusx</p>
+				<!-- <h4>25</h4>
+					<p>basusx</p> -->
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			</div>
 			<div class="col-md-4 w3-services-grids1">
 			<div class=" w3-services-grid6">
-							<i class="fa fa-ambulance" aria-hidden="true"></i>
-				<h3>Emergency Help</h3>
+							<i class="fa fa-wheelchair" aria-hidden="true"></i>
+				<h3>Sunat Modern Difabel</h3>
 				<div class="w3-services-grid1-left">
-					<h4>40 </h4>
-					<p>ipsum</p>
+					<!-- <h4>40 </h4>
+					<p>ipsum</p> -->
 				</div>
 				<div class="w3-services-grid1-right">
-				<h4>45</h4>
-					<p>basusx</p>
+				    <!-- <h4>45</h4>
+					<p>basusx</p> -->
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -413,9 +415,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
 			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Lorem ipsum quia dolor
-			sit amet, consectetur, adipisci velit, sed quia non 
-			numquam eius modi tempora.</p>
+			<p>Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>

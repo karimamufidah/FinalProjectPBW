@@ -11,7 +11,7 @@ class Admin extends CI_Controller{
 
   function index(){
     $data['kontak'] = $this->modeladmin->tampil_data()->result();
-    $this->load->view('admin',$data);
+    $this->load->view('indexadmin',$data);
   }
 
   function edit($id){

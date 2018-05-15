@@ -213,7 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-6 w3-about-left-grid">
 					<div class=" w3-about-left-grid-inner-head">
 						<!-- <i class="fa fa-microphone" aria-hidden="true"></i> -->
-						<h3>Sunat Modern Tanpa Jarum Suntik</h3>
+						<!-- <h3>Sunat Modern Tanpa Jarum Suntik</h3> -->
 					</div>
 					<div class=" w3-about-left-grid-inner2-head">
 						<h3>Merupakan sebuah inovasi baru di dunia kesehatan dalam hal khitan. Sebagai pusat pelayanan khitan modern terpadu, Pusat Sunat Modern ini mengutamakan keselamatan, kenyamanan, dan kepuasan pelanggan dalam setiap pekerjaan.</h3>
@@ -227,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3>Berkhitan bukan jadi momok menakutkan. Meski jauh, sunat modern ini bisa menginspirasi teman-temannya pasien kami untuk datang ke klinik minta di khitan.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
-								<img src="assets/images/a11.jpg" alt="img" />
+								<img src="assets/images/tk1.jpg" alt="img" />
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-md-8 w3-about-right-text1">
@@ -236,7 +236,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3>Layanan khitan kami semakin memberikan manfaat besar untuk pasien khitan dan orang tuanya. Mereka cukup senang dan nyaman karena dengan khitan modern ini mereka bisa langsung beraktifitas setelah berkhitan.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
-								<img src="assets/images/a121.jpg" alt="img" />
+								<img src="assets/images/tk2.jpg" alt="img" />
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-md-8 w3-about-right-text1">
@@ -245,7 +245,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3>Sebagai praktisi khitan sangat merasakan manfaatnya. Berkhitan jadi lebih efisien waktu, cepat, hasil rapi dan yang terpenting adalah pasien khitan senang serta nyaman.</h3>
 						</div>
 						<div class="col-md-4 w3-about-right-img1">
-							<img src="assets/images/a13.jpg" alt="img" />
+							<img src="assets/images/tk3.jpg" alt="img" />
 						</div>
 						<div class="clearfix"></div>
 				</div>
@@ -373,34 +373,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <section class="center slider">
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Rosy Crisp</h4>
-								<h5>Student</h5>
+								<p>Sunat disini sangat memuaskan, awalnya ragu kenapa tanpa suntik. Akhirnya Saya memilih sunat ini untuk anak Saya, ternyata sunatnya membuat anak Saya tidak kesakitan. Terima kasih pusat sunat modern Madiun.</p>
+								<h4>Bambang Nur Salim</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm1.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi1.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Laura Paul</h4>
-								<h5>Student</h5>
+								<p>Tindakan yang dilakukan di pusat sunat modern ini sangat bagus sekali. Sebelumnya sebagai customer kita dijelaskan dahulu metode-metode yang ada sehingga orang tua percaya dan yakin bahwa pusat sunat modern ini cocok untuk khitan anak saat ini.</p>
+								<h4>Agus</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm2.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi2.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Michael Doe</h4>
-								<h5>Student</h5>
+								<p>Pelayanan top. Konsultasi pasca sunat sangat mudah karena respon yang cepat. Anak Saya bisa beraktivitas seperti biasa. Pusat sunat modern pilihan yang cocok untuk khitan anak Saya. Terima kasih pusat sunat modern Madiun.</p>
+								<h4>Endah Purwanti</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm3.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi3.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>

@@ -77,11 +77,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container"> 
 			<div class="grid_3 grid_4 w3_agileits_icons_page">
 						<div class="icons">
-							<h3 class="heading">Font Awesome Icons</h3>
+							<h3 class="heading">Artikel</h3>
 							 <section id="new">
-								  <h3 class="page-header page-header icon-subheading">30 New Icons </h3>							  
+								  <h3 class="page-header page-header icon-subheading">Hukum Sunat atau Khitan </h3>						
+                                 <div class="ab-agile">
+			                         <div class="col-md-6 aboutleft">
+				                        <!-- <h3>Sunat Modern Tanpa Jarum Suntik</h3> -->
+				                            <p class="para1">Khitan adalah bentuk mashdar (kata dasar) dari khatana, yang artinya memotong.  Al-Khitaan, Al-Ikhtitaan, adalah isim (kata benda) dari fi'il (kata kerja) al-khaatin, atau sebutan tempat yang dikhitan, yaitu kulit yang tersisa setelah dipotong (Al-Isawi, 2008). Menurut istilah, khitan pada laki-laki adalah memotong kulit yang menutupi ujung kemaluan laki-laki yang disebut dengan Qulfah,  agar tidak terhimpun kotoran di dalamnya,  dan juga agar dapat menuntaskan air kencing. <br>
+                                            Sejarah permulaan khitan. Menurut Wikipedia, khitan sudah dilakukan sejak zaman prasejarah.  Hal tersebut bisa diamati dari lukisan-lukisan yang terdapat dalam gua-gua prasejarah. Khitan adalah bagian dari syariat yang melekat pada kehidupan seorang Muslim dan khitan merupakan fitrah manusia.<br>
+                                            Rasulullah saw bersabda tentang masalah fitrah berupa khitan yang artinya : <i>“Fithrah itu ada lima : Khitan, mencukur rambut kemaluan, mencabut bulu ketiak, memotong kuku, dan memotong kumis.”</i> (HR. Bukhary dan Muslim ) . Sebagai sebuah fitrah, khitan juga dilakukan oleh kaum terdahulu. Dari Abu Hurairah, Nabi saw. bersabda, <i>"Nabi Ibrahim a.s. berkhitan setelah usianya mencapai delapan puluh tahun, dan ia berkhitan dengan kapak. Sedangkan Rasulullah diperintahkan oleh Allah untuk mengikuti agama Ibrahim, sebagaimana tercantum dalam firman yang artinya, "Kemudian Kami wahyukan kepadamu (Muhammad): 'Ikutilah agama Ibrahim yang hanif."</i> (QS. An-Nahl: 123).<br>
+                                            Menurut sebagian  ulama, hukum khitan untuk lelaki itu wajib. Sementara, menurut riwayat yang cukup terkenal  dari imam Malik, beliau mengatakan khitan hukumnya sunnah. Ibnu Qudamah dalam kitabnya, Mughni, mengatakan bahwa khitan bagi lelaki hukumnya wajib dan kemuliaan bagi perempuan. Meskipun ada perbedaan pendapat, karena hukum minimalnya adalah sunnah, khitan merupakan sebuah ajaran yang semestinya tidak ditinggalkan umat Islam.<br>
+                                            Kapan khitan dilakukan? Menurut pendapat yang shaheh tidak wajib dikhitan sampai ia baligh dan disunatkan pada hari ketujuh kelahirannya, hal ini berlaku bila menurut perkiraan medis hal tersebut tidak akan berdampak negatif. Kalau tidak maka harus ditunggu sampai ia sanggup untuk dikhitan. Maka seorang yang sudah baligh wajib disegerakan untuk dikhitan dan bila ia enggan maka terhadap pemerintah wajib memaksanya untuk dikhitan.<br>
+                                            Lalu apa manfaat dari khitan? Menurut The american Academy of Pediatrics (AAP) manfaat dari khitan adalah :</p>
+				                            <p><i class="fa fa-check" aria-hidden="true"></i> Mencegah infeksi saluran kencing (ISK) pada anak-anak </p>
+				                            <p><i class="fa fa-check" aria-hidden="true"></i> Mencegah kanker penis </p>
+				                            <p><i class="fa fa-check" aria-hidden="true"></i> Solusi bagi penyakit dan kelainan bawaan pada alat kelamin </p>
+				                    </div>
+			                         <div class="col-md-6 aboutright">
+				                        <img src="assets/images/artikelsunat.jpg" class="img-responsive" alt="" />
+			                         </div>
+			                     <div class="clearfix"></div>
+		                          </div>
 
-								  <div class="row fontawesome-icon-list">
+								  <!-- <div class="row fontawesome-icon-list">
 									
 									
 									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-asl-interpreting" aria-hidden="true"></i> fa-asl-interpreting <span class="text-muted">(alias)</span></a></div>
@@ -154,15 +172,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									
 									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-yoast" aria-hidden="true"></i> fa-yoast</a></div>
 									
-								  </div>
+								  </div> -->
 								<!---728x90--->
 								</section>
-							<div class="section group">
-									<div class="box"> 
-										<div class="title ">
-											<h3 class="page-header icon-subheading">Web Application Icons</h3>
-										</div>
-										<div class="box_content"> 
+							<!-- <div class="box_content"> 
 											<div class="fontawesome-icon-list"> 
 												<div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-adjust"></i> fa-adjust</a></div>
 										
@@ -1093,13 +1106,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<div class="clearfix"></div>
 												</div>
 											</div>   
-										</div>
+										</div> -->
 									</div>
 							</div> 
 						</div>
 					</div>
 					<!---728x90--->
-					<div class="grid_3 grid_4">
+					<!-- <div class="grid_3 grid_4">
 						<h3 class="agileits-icons-title">Bootstrap Glyphicons</h3>
 						<h3 class="page-header icon-subheading">Glyphicons</h3>
 						<div class="bs-glyphicons"> 

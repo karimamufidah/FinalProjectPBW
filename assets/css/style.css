@@ -219,7 +219,7 @@ label{
 }
 /*-- //banner-slider --*/
 .banner2 {
-    background: url(../images/ban2.jpg)no-repeat center 0px;
+    background: url(../images/ban.jpg)no-repeat center 0px;
     background-size: cover;
     height: 300px!important;
 }
@@ -398,31 +398,31 @@ nav.navbar.navbar-default {
 	border-radius:50%;
 }
 .carousel .item{ 
-	background:url(../images/ban2.jpg)no-repeat center 0px;
+	background:url(../images/slide1.jpg)no-repeat center 0px;
 	background-size:cover;  
 	height: 760px!important;
 	
 } 
 .carousel .item1{ 
-	background:url(../images/ban4.jpg)no-repeat center 0px;
+	background:url(../images/slide2.jpg)no-repeat center 0px;
 	background-size:cover;  
 	height: 760px!important;
 	
 } 
 .carousel .item2{ 
-	background:url(../images/ban55.jpg)no-repeat center 0px;
+	background:url(../images/slide3.jpg)no-repeat center 0px;
 	background-size:cover;
 	    height: 760px!important;
 	
 } 
 .carousel .item3{ 
-	background:url(../images/ban6.jpg)no-repeat center 0px;
+	background:url(../images/slide4.jpg)no-repeat center 0px;
 	background-size:cover;
 	    height: 760px!important;
 	
 } 
 .carousel .item4{ 
-	background:url(../images/ban7.jpg)no-repeat center 0px;
+	background:url(../images/slide5.jpg)no-repeat center 0px;
 	background-size:cover;
 	    height: 760px!important;
 	
@@ -723,7 +723,7 @@ nav.navbar.navbar-default {
 	margin-bottom:40px;
 }
 .w3-about-left-grid-inner-head {
-    background: url(../images/ab33.jpg) no-repeat 0px 0px;
+    background: url(../images/tk0.jpg) no-repeat 0px 0px;
     background-size: cover;
    min-height: 400px;
 }
@@ -966,7 +966,7 @@ div#services {
     color: #fff;
 }
 .offer {
-    background: url(../images/sp2.jpg) no-repeat 0px 0px;
+    background: url(../images/paralax.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1288,7 +1288,7 @@ div#services {
 	padding:2em 0;
 }
 .w3-agile-team-img1{
-	background:url(../images/team1.jpg) no-repeat 0px 0px;
+	background:url(../images/sabani.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1297,24 +1297,24 @@ div#services {
 	min-height:450px;
 }
 .w3-agile-team-img-1 {
-	background:url(../images/team1.jpg) no-repeat 0px 0px;
+	background:url(../images/choiruddin.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .w3-agile-team-img-2 {
-	background:url(../images/t22.jpg) no-repeat 0px 0px;
+	background:url(../images/sugeng.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .w3-agile-team-img-3 {
-	background:url(../images/t333.jpg) no-repeat 0px 0px;
+	background:url(../images/heri.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .w3-agile-team-img-4 {
-	background:url(../images/t44.jpg) no-repeat 0px 0px;
+	background:url(../images/nurhadi.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	
 }
 .w3-agile-team-img-5 {
-	background:url(../images/t55.jpg) no-repeat 0px 0px;
+	background:url(../images/bagushandoko.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .w3-agile-team-img-head {

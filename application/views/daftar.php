@@ -1,347 +1,245 @@
-
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<title>Sunat Modern</title>
-<!--/metadata -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
-<meta name="keywords" content="MediBulk Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="assets/css/daftar.css" rel="stylesheet" type="text/css" media="all" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Pendaftaran Khitan</title>
 
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-<!--//fonts-->
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
 
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/assets/img/apple-icon.png" />
+	<link rel="icon" type="image/png" href="assets/assets/img/favicon.png" />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+	<link href="assets/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/assets/css/demo.css" rel="stylesheet" />
 </head>
 
 <body>
+	<div class="image-container set-full-height" style="background-image: url('assets/assets/img/bg.jpg')">
+	    <!--   Creative Tim Branding   -->
+	    <a href="beranda">
+	         <div class="logo-container">
+	            <div class="logo">
+	                <img src="assets/assets/img/panah.png">
+	            </div>
+	            <div class="brand">
+	                Kembali ke Menu
+	            </div>
+	        </div>
+	    </a>
 
-<div class="banner-header banner2">
-	<div class="banner-dott1">
-		<!--header-->
-		<div class="header">
-		<div class="container-fluid">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header navbar-left">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="w3_navigation_pos">
-						<h1><a href="beranda">Sunat Modern</a></h1>
-					</div>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-					<nav>
-						<ul class="nav navbar-nav">
-							<li><a href="beranda">Beranda</a></li>
-							<li><a href="profil">Profil</a></li>
-							<li><a href="layanan">Layanan</a></li>
-							<li><a href="galeri">Galeri</a></li>
-							<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Berita <b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="artikel">Artikel</a></li>
-										<li><a href="promo">Promo</a></li>
-									</ul>
-							  </li>
-							<li><a href="kontak">Kontak</a></li>
-						</ul>
-					</nav>
-				</div>
-			</nav>	
-		</div>
+		<!--  Made With Material Kit  -->
+		<!-- <a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk">
+			<div class="brand">MK</div>
+			<div class="made-with">Made with <strong>Material Kit</strong></div>
+		</a> -->
+
+	    <!--   Big container   -->
+	    <div class="container">
+	        <div class="row">
+		        <div class="col-sm-8 col-sm-offset-2">
+		            <!--      Wizard container        -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="red" id="wizard">
+		                    <form action="" method="">
+		                <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+		                    	<div class="wizard-header">
+		                        	<h3 class="wizard-title">
+		                        		Formulir Pendaftaran
+		                        	</h3>
+									<h5>Isilah formulir di bawah ini dengan sebenar-benarnya.</h5>
+		                    	</div>
+								<div class="wizard-navigation">
+									<ul>
+			                            <li><a href="#details" data-toggle="tab">Tahap Satu</a></li>
+			                            <li><a href="#captain" data-toggle="tab">Tahap Dua</a></li>
+			                            <li><a href="#description" data-toggle="tab">Tahap Tiga</a></li>
+			                        </ul>
+								</div>
+
+		                        <div class="tab-content">
+		                            <div class="tab-pane" id="details">
+		                            	<div class="row">
+			                            	<div class="col-sm-12">
+			                                	<h4 class="info-text"> Data Orang Tua Bapak/Ibu Pasien Khitan</h4>
+			                            	</div>
+		                                	<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">email</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Nama Lengkap</label>
+			                                          	<input name="namalengkap" type="text" class="form-control">
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">No. KTP</label>
+			                                          	<input name="noktp" type="text" class="form-control">
+			                                        </div>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Alamat</label>
+			                                          	<input name="alamat" type="text" class="form-control">
+			                                        </div>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Kelurahan/Kecamatan</label>
+			                                          	<input name="kelurahan/kecamatan" type="text" class="form-control">
+			                                        </div>
+												</div>
+		                                	</div>
+		                                	<div class="col-sm-6">
+		                                    	<div class="form-group label-floating">
+		                                        	<label class="control-label">Hubungan</label>
+	                                        		<select class="form-control">
+														<option disabled="" selected=""></option>
+	                                                	<option value="Ayah"> Ayah </option>
+	                                                	<option value="Ibu"> Ibu </option>
+	                                                	<option value="Saudara"> Saudara </option>
+		                                        	</select>
+		                                    	</div>
+												<div class="form-group label-floating">
+		                                        	<label class="control-label">Pendidikan Terakhir</label>
+	                                        		<select class="form-control">
+														<option disabled="" selected=""></option>
+	                                                	<option value="SMP"> SMP </option>
+	                                                	<option value="SMA"> SMA </option>
+	                                                	<option value="Diploma"> Diploma </option>
+	                                                	<option value="S1/S2"> S1/S2 </option>
+                                                        <option value="Lainnya"> Lainnya </option>
+		                                        	</select>
+		                                    	</div>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">RT/RW</label>
+			                                          	<input name="rt/rw" type="text" class="form-control">
+			                                        </div>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Kab/Kota</label>
+			                                          	<input name="kab/kota" type="text" class="form-control">
+			                                        </div>
+		                                	</div>
+		                            	</div>
+		                            </div>
+		                            <div class="tab-pane" id="captain">
+		                                <h4 class="info-text">What type of room would you want? </h4>
+		                                <div class="row">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
+		                                                <input type="radio" name="job" value="Design">
+		                                                <div class="icon">
+		                                                    <i class="material-icons">weekend</i>
+		                                                </div>
+		                                                <h6>Single</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
+		                                                <input type="radio" name="job" value="Code">
+		                                                <div class="icon">
+		                                                    <i class="material-icons">home</i>
+		                                                </div>
+		                                                <h6>Family</h6>
+		                                            </div>
+		                                        </div>
+												<div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
+		                                                <input type="radio" name="job" value="Code">
+		                                                <div class="icon">
+		                                                    <i class="material-icons">business</i>
+		                                                </div>
+		                                                <h6>Business</h6>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                            <div class="tab-pane" id="description">
+		                                <div class="row">
+		                                    <h4 class="info-text"> Drop us a small description.</h4>
+		                                    <div class="col-sm-6 col-sm-offset-1">
+	                                    		<div class="form-group">
+		                                            <label>Room description</label>
+		                                            <textarea class="form-control" placeholder="" rows="6"></textarea>
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-4">
+		                                    	<div class="form-group">
+		                                            <label class="control-label">Example</label>
+		                                            <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+	                        	<div class="wizard-footer">
+	                            	<div class="pull-right">
+	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+	                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+	                                </div>
+	                                <div class="pull-left">
+	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+										<!-- <div class="footer-checkbox">
+											<div class="col-sm-12">
+											  <div class="checkbox">
+												  <label>
+													  <input type="checkbox" name="optionsCheckboxes">
+												  </label>
+												  Subscribe to our newsletter
+											  </div>
+										  </div>
+										</div> -->
+	                                </div>
+	                                <div class="clearfix"></div>
+	                        	</div>
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+		        </div>
+	    	</div> <!-- row -->
+		</div> <!--  big container -->
+
+	    <div class="footer">
+	        <div class="container text-center">
+	             Made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>. Free download <a href="http://www.creative-tim.com/product/material-bootstrap-wizard">here.</a>
+	        </div>
+	    </div>
 	</div>
-		<!--//header-->
-	</div>
-</div>
-<!-- // banner -->
-<!-- Mail Us inner -->
-<div class="contact-page-w3ls inner-padding">
-    <h1>Formulir Pendaftaran Pasien Khitan</h1>
-<form id="regForm" action="/action_page.php">
-  <h3>Data Orang Tua Bapak/Ibu Pasien Khitan</h3><br>
-  <!-- One "tab" for each step in the form: -->
-  <div class="tab">Nama Lengkap*
-    <p><input placeholder="" oninput="this.className = ''" name="namalengkap"></p><br>
-  </div>
-  <div>No. KTP*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Hubungan*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Alamat Rumah
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>RT/RW*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Kelurahan/Kecamatan*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Kabupaten/Kota*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Telepon/Fax/HP*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Email*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Pendidikan Terakhir*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Nama Pasien Yang Dikhitan*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Umur*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-    <div>Riwayat Penyakit Yang Dikhitan*
-    <p><input placeholder="" oninput="this.className = ''" name="noktp"></p><br>
-  </div>
-  <div class="tab">Metode Yang Dipilih (semua tanpa rasa sakit tanpa jarum suntik)
-    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
-    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
-  </div>
-  <div class="tab">Birthday:
-    <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
-    <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
-    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
-  </div>
-  <div class="tab">Login Info:
-    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
-    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
-  </div>
-  <div style="overflow:auto;">
-    <div style="float:right;">
-      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Kembali</button>
-      <button type="button" id="nextBtn" onclick="nextPrev(1)">Selanjutnya</button>
-    </div>
-  </div>
-  <!-- Circles which indicates the steps of the form: -->
-  <div style="text-align:center;margin-top:40px;">
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-  </div>
-</form>
-
-<script>
-var currentTab = 0; // Current tab is set to be the first tab (0)
-showTab(currentTab); // Display the crurrent tab
-
-function showTab(n) {
-  // This function will display the specified tab of the form...
-  var x = document.getElementsByClassName("tab");
-  x[n].style.display = "block";
-  //... and fix the Previous/Next buttons:
-  if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
-  } else {
-    document.getElementById("prevBtn").style.display = "inline";
-  }
-  if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
-  } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
-  }
-  //... and run a function that will display the correct step indicator:
-  fixStepIndicator(n)
-}
-
-function nextPrev(n) {
-  // This function will figure out which tab to display
-  var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-  if (n == 1 && !validateForm()) return false;
-  // Hide the current tab:
-  x[currentTab].style.display = "none";
-  // Increase or decrease the current tab by 1:
-  currentTab = currentTab + n;
-  // if you have reached the end of the form...
-  if (currentTab >= x.length) {
-    // ... the form gets submitted:
-    document.getElementById("regForm").submit();
-    return false;
-  }
-  // Otherwise, display the correct tab:
-  showTab(currentTab);
-}
-
-function validateForm() {
-  // This function deals with validation of the form fields
-  var x, y, i, valid = true;
-  x = document.getElementsByClassName("tab");
-  y = x[currentTab].getElementsByTagName("input");
-  // A loop that checks every input field in the current tab:
-  for (i = 0; i < y.length; i++) {
-    // If a field is empty...
-    if (y[i].value == "") {
-      // add an "invalid" class to the field:
-      y[i].className += " invalid";
-      // and set the current valid status to false
-      valid = false;
-    }
-  }
-  // If the valid status is true, mark the step as finished and valid:
-  if (valid) {
-    document.getElementsByClassName("step")[currentTab].className += " finish";
-  }
-  return valid; // return the valid status
-}
-
-function fixStepIndicator(n) {
-  // This function removes the "active" class of all steps...
-  var i, x = document.getElementsByClassName("step");
-  for (i = 0; i < x.length; i++) {
-    x[i].className = x[i].className.replace(" active", "");
-  }
-  //... and adds the "active" class on the current step:
-  x[n].className += " active";
-}
-</script>
-
-</div>
-	<!-- //Mail Us inner -->
-
-<!-- footer -->
-<div class="footer">
-	<div class="container">
-	<div class="footer_agile_inner_info_w3l">
-		<div class="col-md-4 footer-left">
-			<h2><a href="beranda">Sunat Modern </a></h2>
-			<p>Lorem ipsum quia dolor
-			sit amet, consectetur, adipisci velit, sed quia non 
-			numquam eius modi tempora.</p>
-			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter"> 
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-		</div>
-		<div class="col-md-4 footer-right">
-			<div class="sign-grds">
-				<div class="sign-gd">
-					<h4>Informasi </h4>
-					<ul>
-						 <li><a href="beranda" class="active">Beranda</a></li>
-        <li><a href="profil" >Profil</a></li>
-        <li><a href="layanan"> Layanan</a></li>
-		<li><a href="galeri">Galeri</a></li>
-		<li><a href="kontak">Kontak</a></li>
-						
-					</ul>
-				</div>
-				</div>
-			</div>
-				<div class="col-md-4 sign-gd-two">
-					<h4>Alamat</h4>
-					<div class="w3-address">
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Nomor Telepon</h6>
-								<p>+62 812 3409030</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Alamat Email</h6>
-								<p><a href="mailto:banimadiun@gmail.com"> banimadiun@gmail.com</a></p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-map-marker" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Lokasi</h6>
-								<p>Jl Purnama Sari N0.16, Rejomulyo, Madiun, Jawa Timur 63111 
-								
-								</p>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-				
-		
-		<div class="clearfix"></div>
-			
-		<p class="copy-right">&copy;2018 Sunat Modern. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-	</div>
-</div>
-</div>
-<!-- //footer -->
-
-<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
-	<!-- //Tour-Locations-JavaScript -->
-			<script src="assets/js/SmoothScroll.min.js"></script>
-		<!-- smooth scrolling-bottom-to-top -->
-				<script type="text/javascript">
-					$(document).ready(function() {
-					/*
-						var defaults = {
-						containerID: 'toTop', // fading element id
-						containerHoverID: 'toTopHover', // fading element hover id
-						scrollSpeed: 1200,
-						easingType: 'linear' 
-						};
-					*/								
-					$().UItoTop({ easingType: 'easeOutQuart' });
-					});
-				</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-		<!-- //smooth scrolling-bottom-to-top -->
-		<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="assets/js/move-top.js"></script>
-<script type="text/javascript" src="assets/js/easing.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
 
 </body>
+	<!--   Core JS Files   -->
+	<script src="assets/assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="assets/assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="assets/assets/js/material-bootstrap-wizard.js"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="assets/assets/js/jquery.validate.min.js"></script>
 </html>

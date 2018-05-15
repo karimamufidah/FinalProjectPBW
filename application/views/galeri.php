@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>berlangsungnya proses khitan</p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven </p>
+					<p>metode dalam sunat modern </p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>ruang praktik khitan</p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -129,7 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>metode dalam sunat modern</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -143,7 +143,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>pasien khitan beserta wali</p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -156,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>metode dalam sunat modern</p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -169,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>pasien khitan beserta wali</p>
 				</div>
 			</div>
 			<div class="col-sm-3 w3_tab_img_left">
@@ -182,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agile-gallery-info">
 					<h5>Sunat Modern</h5>
-					<p>we are innovation driven</p>
+					<p>metode dalam sunat modern</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>

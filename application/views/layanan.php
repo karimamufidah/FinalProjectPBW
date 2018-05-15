@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-8 w3l_services_footer_top_right">
 				<div class="w3l_services_footer_top_right_main">
 					<div class="w3l_services_footer_top_right_main_l">
-						<h3>20 January 2018</h3>
+						<h3>Sunat Modern</h3>
 					</div>
 					<div class="w3l_services_footer_top_right_main_l1">	
 						<div class="w3ls_service_icon">
@@ -91,15 +91,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="w3l_services_footer_top_right_main_r">
-						<a href="#" >Maximus pretium </a>
-						<p>Morbi sollicitudin odio massa, et rutrum sem rutrum in. 
-							Duis elementum turpis ultricies, finibus leo.</p>
+						<a href="#" >Pelayanan Sunat Terlengkap </a>
+						<p>Musim liburan kedepan, kami siap dengan pelayanan sunat terlengkap, modern, dan ternyaman untuk putra tercinta Anda.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="w3l_services_footer_top_right_main">
 					<div class="w3l_services_footer_top_right_main_l">
-						<h3>25 January 2018</h3>
+						<h3>Sunat Modern</h3>
 					</div>
 					<div class="w3l_services_footer_top_right_main_l1">	
 						<div class="w3ls_service_icon">
@@ -107,15 +106,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="w3l_services_footer_top_right_main_r">
-						<a href="#" >Aliquam faucibus </a>
-						<p>Morbi sollicitudin odio massa, et rutrum sem rutrum in. 
-							Duis elementum turpis ultricies, finibus leo.</p>
+						<a href="#" >Pelayanan Sunat Terlengkap </a>
+						<p>Kami melayani khitan bayi, anak, perbaikan khitan dewasa, khitan anak autis, dan lain-lain.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="w3l_services_footer_top_right_main">
 					<div class="w3l_services_footer_top_right_main_l">
-						<h3>30 January 2018</h3>
+						<h3>Sunat Modern</h3>
 					</div>
 					<div class="w3l_services_footer_top_right_main_l1">	
 						<div class="w3ls_service_icon">
@@ -123,9 +121,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="w3l_services_footer_top_right_main_r">
-						<a href="#">Vitae faucibus</a>
-						<p>Morbi sollicitudin odio massa, et rutrum sem rutrum in. 
-							Duis elementum turpis ultricies, finibus leo.</p>
+						<a href="#">Pelayanan Sunat Terlengkap</a>
+						<p>Tidak disuntik jarum, tidak dijahit benang, tidak dibungkus perban, pasien bisa langsung mandi dan beraktivitas seperti sedia kala.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -215,34 +212,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <section class="center slider">
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Rosy Crisp</h4>
-								<h5>Student</h5>
+								<p>Sunat disini sangat memuaskan, awalnya ragu kenapa tanpa suntik. Akhirnya Saya memilih sunat ini untuk anak Saya, ternyata sunatnya membuat anak Saya tidak kesakitan. Terima kasih pusat sunat modern Madiun.</p>
+								<h4>Bambang Nur Salim</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm1.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi1.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Laura Paul</h4>
-								<h5>Student</h5>
+								<p>Tindakan yang dilakukan di pusat sunat modern ini sangat bagus sekali. Sebelumnya sebagai customer kita dijelaskan dahulu metode-metode yang ada sehingga orang tua percaya dan yakin bahwa pusat sunat modern ini cocok untuk khitan anak saat ini.</p>
+								<h4>Agus</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm2.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi2.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>
 						<div class="agileits_testimonial_grid">
 							<div class="w3l_testimonial_grid">
-								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
-									non laoreet dolor.</p>
-								<h4>Michael Doe</h4>
-								<h5>Student</h5>
+								<p>Pelayanan top. Konsultasi pasca sunat sangat mudah karena respon yang cepat. Anak Saya bisa beraktivitas seperti biasa. Pusat sunat modern pilihan yang cocok untuk khitan anak Saya. Terima kasih pusat sunat modern Madiun.</p>
+								<h4>Endah Purwanti</h4>
+								<h5>Orang tua pasien</h5>
 								<div class="w3l_testimonial_grid_pos">
-									<img src="assets/images/tm3.jpg" alt=" " class="img-responsive" />
+									<img src="assets/images/testi3.jpg" alt=" " class="img-responsive" />
 								</div>
 							</div>
 						</div>

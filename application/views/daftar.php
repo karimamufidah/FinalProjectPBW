@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width" />
 
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/assets/img/apple-icon.png" />
-	<link rel="icon" type="image/png" href="assets/assets/img/favicon.png" />
+	<link rel="icon" type="image/png" href="assets/assets/img/logo.png" />
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -50,7 +50,7 @@
 		            <!--      Wizard container        -->
 		            <div class="wizard-container">
 		                <div class="card wizard-card" data-color="red" id="wizard">
-		                    <form action="" method="">
+                            <form action="<?php echo base_url(). 'pendaftaran/tambah_aksi'; ?>" method="post">
 		                <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
 
 		                    	<div class="wizard-header">
@@ -80,7 +80,7 @@
 													</span>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">Nama Lengkap</label>
-			                                          	<input name="namalengkap" type="text" class="form-control">
+			                                          	<input name="namalengkap" type="text" class="form-control" required>
 			                                        </div>
 												</div>
 
@@ -90,7 +90,7 @@
 													</span>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">No. KTP</label>
-			                                          	<input name="noktp" type="text" class="form-control">
+			                                          	<input name="noktp" type="text" class="form-control" size="16" required>
 			                                        </div>
 												</div>
                                                 <div class="input-group">
@@ -99,7 +99,7 @@
 													</span>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">Alamat</label>
-			                                          	<input name="alamat" type="text" class="form-control">
+			                                          	<input name="alamat" type="text" class="form-control" required>
 			                                        </div>
 												</div>
                                                 <div class="input-group">
@@ -108,14 +108,14 @@
 													</span>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">Kelurahan/Kecamatan</label>
-			                                          	<input name="kelurahan/kecamatan" type="text" class="form-control">
+			                                          	<input name="kelurahankecamatan" type="text" class="form-control" required>
 			                                        </div>
 												</div>
 		                                	</div>
 		                                	<div class="col-sm-6">
 		                                    	<div class="form-group label-floating">
 		                                        	<label class="control-label">Hubungan</label>
-	                                        		<select class="form-control">
+	                                        		<select name="hubungan" class="form-control" required>
 														<option disabled="" selected=""></option>
 	                                                	<option value="Ayah"> Ayah </option>
 	                                                	<option value="Ibu"> Ibu </option>
@@ -124,7 +124,7 @@
 		                                    	</div>
 												<div class="form-group label-floating">
 		                                        	<label class="control-label">Pendidikan Terakhir</label>
-	                                        		<select class="form-control">
+	                                        		<select name="pendidikan" class="form-control" required>
 														<option disabled="" selected=""></option>
 	                                                	<option value="SMP"> SMP </option>
 	                                                	<option value="SMA"> SMA </option>
@@ -135,74 +135,124 @@
 		                                    	</div>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">RT/RW</label>
-			                                          	<input name="rt/rw" type="text" class="form-control">
+			                                          	<input name="RTRW" type="text" class="form-control" required>
 			                                        </div>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">Kab/Kota</label>
-			                                          	<input name="kab/kota" type="text" class="form-control">
+			                                          	<input name="kabkota" type="text" class="form-control" required>
 			                                        </div>
 		                                	</div>
 		                            	</div>
 		                            </div>
 		                            <div class="tab-pane" id="captain">
-		                                <h4 class="info-text">What type of room would you want? </h4>
 		                                <div class="row">
-		                                    <div class="col-sm-10 col-sm-offset-1">
-		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
-		                                                <input type="radio" name="job" value="Design">
-		                                                <div class="icon">
-		                                                    <i class="material-icons">weekend</i>
-		                                                </div>
-		                                                <h6>Single</h6>
-		                                            </div>
-		                                        </div>
-		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
-		                                                <input type="radio" name="job" value="Code">
-		                                                <div class="icon">
-		                                                    <i class="material-icons">home</i>
-		                                                </div>
-		                                                <h6>Family</h6>
-		                                            </div>
-		                                        </div>
-												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
-		                                                <input type="radio" name="job" value="Code">
-		                                                <div class="icon">
-		                                                    <i class="material-icons">business</i>
-		                                                </div>
-		                                                <h6>Business</h6>
-		                                            </div>
-		                                        </div>
-		                                    </div>
-		                                </div>
+			                            	<div class="col-sm-12">
+			                                	<h4 class="info-text"> Data Orang Tua Bapak/Ibu Pasien Khitan</h4>
+			                            	</div>
+		                                	<div class="col-sm-6">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">email</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Telepon/Fax/HP</label>
+			                                          	<input name="telepon" type="text" class="form-control" required>
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Email</label>
+			                                          	<input name="email" type="email" class="form-control" required>
+			                                        </div>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+												</div>
+		                                	</div>
+		                                	<div class="col-sm-6">
+                                                <div class="form-group label-floating">
+			                                          	<label class="control-label">Nama Anak Yang Dikhitan</label>
+			                                          	<input name="namaanak" type="text" class="form-control" required>
+			                                        </div>
+		                                    	<div class="form-group label-floating">
+			                                          	<label class="control-label">Umur</label>
+			                                          	<input name="umur" type="text" class="form-control" required>
+			                                        </div>
+												<div class="form-group label-floating">
+		                                        	<label class="control-label">Riwayat Penyakit Yang Dikhitan</label>
+	                                        		<select name="riwayat" class="form-control" required>
+														<option disabled="" selected=""></option>
+	                                                	<option value="Ada"> Ada </option>
+	                                                	<option value="Tidak Ada"> Tidak Ada </option>
+		                                        	</select>
+		                                    	</div>
+		                                	</div>
+		                            	</div>
 		                            </div>
 		                            <div class="tab-pane" id="description">
 		                                <div class="row">
-		                                    <h4 class="info-text"> Drop us a small description.</h4>
-		                                    <div class="col-sm-6 col-sm-offset-1">
-	                                    		<div class="form-group">
-		                                            <label>Room description</label>
-		                                            <textarea class="form-control" placeholder="" rows="6"></textarea>
-		                                        </div>
-		                                    </div>
-		                                    <div class="col-sm-4">
-		                                    	<div class="form-group">
-		                                            <label class="control-label">Example</label>
-		                                            <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
-		                                        </div>
-		                                    </div>
+		                                   <div class="col-sm-12">
+			                                	<h4 class="info-text"> Metode Yang Dipilih</h4>
+			                            	</div>
+		                                    <div class="col-sm-6">
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+		                                        	<label class="control-label">Pilih Metode</label>
+	                                        		<select name="metode" class="form-control" required>
+														<option disabled="" selected=""></option>
+	                                                	<option value="Standar"> Standar </option>
+	                                                	<option value="Cauter/Laser"> Cauter/Laser </option>
+	                                                	<option value="Alisklamp"> Alisklamp </option>
+                                                        <option value="Superklamp/Superrings"> Superklamp/Superrings </option>
+                                                        <option value="Stapler"> Stapler </option>
+		                                        	</select>
+		                                    	</div>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Tentukan Tanggal Khitan</label>
+			                                          	<input name="tanggalkhitan" type="date" class="form-control" required>
+			                                        </div>
+												</div>
+                                                <div class="input-group">
+													<span class="input-group-addon">
+														<!-- <i class="material-icons">lock_outline</i> -->
+													</span>
+												</div>
+		                                	</div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group label-floating">
+			                                          	<label class="control-label">Kode Verifikasi</label>
+			                                          	<input name="kode" type="text" class="form-control" required>
+			                                        </div>
+		                                	</div>
 		                                </div>
 		                            </div>
 		                        </div>
 	                        	<div class="wizard-footer">
 	                            	<div class="pull-right">
-	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
-	                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Selanjutnya' />
+	                                    <input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Selesai' />
 	                                </div>
 	                                <div class="pull-left">
-	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Sebelumnya' />
 
 										<!-- <div class="footer-checkbox">
 											<div class="col-sm-12">
@@ -226,7 +276,7 @@
 
 	    <div class="footer">
 	        <div class="container text-center">
-	             Made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>. Free download <a href="http://www.creative-tim.com/product/material-bootstrap-wizard">here.</a>
+	             <p class="copy-right">&copy;2018 Sunat Modern. All rights reserved.
 	        </div>
 	    </div>
 	</div>

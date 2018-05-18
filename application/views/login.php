@@ -14,6 +14,7 @@
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="assets/css/sb-admin.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/assets/img/logo.png" />
 </head>
 
 <body class="bg-dark">

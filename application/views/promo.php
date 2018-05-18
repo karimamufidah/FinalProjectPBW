@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/assets/img/logo.png" />
 <!--//fonts-->
 
 </head>
@@ -81,8 +82,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             
                             <div class="ab-agile">
 			                 <div class="col-md-6 aboutleft">
-				                <h3>Jangan lewatkan promo berikut ini!</h3>
-				                    <p class="para1">Syarat dan Ketentuan :</p>
+				                <h3>Ramadhan Penuh Berkah</h3>
+				                    <p class="para1">Dapatkan promo spesial daftar 2 gratis 1 dengan syarat dan ketentuan sebagai berikut.</p>
                                     <p><i class="fa fa-check" aria-hidden="true"></i> Memiliki aplikasi sunat modern tanpa jarum suntik Indonesia </p>
                                     <p><i class="fa fa-check" aria-hidden="true"></i> Berlaku untuk semua metode </p>
 				            </div>

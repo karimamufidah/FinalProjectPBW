@@ -22,6 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/assets/img/logo.png" />
 <!--//fonts-->
 
 </head>
@@ -134,6 +135,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- offer -->
     <div class="offer">
 		<div class="container">
+            <div class="w3-heading-all">
+				<h3>Metode Sunat Modern</h3>
+			</div>
 			<div class="w3ls_banner_bottom_grids">
 				<div class="col-md-4 agile_offer_grid">
 					<div class="agileits_w3layouts_offer_grid">

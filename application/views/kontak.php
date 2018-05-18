@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/assets/img/logo.png" />
 <!--//fonts-->
 
 </head>
@@ -127,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="contact-right-w3layouts">
 	<h5 class="title-w3">Kenali Kami Lebih Dekat!</h5>
 	<p class="head-w3-agileits">Jika Anda memiliki pertanyaan, silahkan hubungi kami atau mengisi form di bawah ini dan kami akan menghubungi Anda kembali.</p>
-		<form action="<?php echo base_url(). 'admin/tambah_aksi'; ?>" method="post">
+		<form action="<?php echo base_url(). 'feedback/tambah_aksi'; ?>" method="post">
 			<input type="text" name="nama" placeholder="NAMA" required="Harap diisi">
 			<input type="email" name="email" placeholder="EMAIL" required="Harap diisi">
 			<textarea name="pesan" placeholder="TULISKAN PESAN ANDA" required="Harap diisi"></textarea>
